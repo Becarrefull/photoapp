@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(../images/background_sunset.jpg);
+    background-size: cover;
+    height: 745px;
+    text-align: center;
+}
+
+.nav-menu {
+    padding-top: 30px;
+    padding-left: 160px;
+    padding-right: 160px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-title-1{
+    margin-top: 190px;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+
+.header-title-2{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+
+}
+
+.button-cta{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #1ABC9C;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 28px;
+    transition: 0.7 ms;
+}
+
+.button-cta:hover{
+    background-color: rgb(20, 117, 98);
+}
+
+.header-socialmedia{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0px;
+}
+
+.socialmedia-link{
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia-link li{
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: 0.5 ms;
+}
+
+.socialmedia-link li:hover{
+    transform: scale(1.4);
+}
+
+/* ********** PRESENTATION ET DESIGN section *********** */
+
+.presentation-section{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 252, 254)
+}
+
+.design-section{
+    padding-right: 80px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.left-presentation{
+    width: 40%;
+}
+
+.left-design{
+    width: 60%;
+    background-image: url("../images/iphone-bkg.jpg");
+    background-repeat: no-repeat;
+    background-position: center 80px;
+}
+
+.left-presentation h3,
+.right-design h3{
+    color: #1ABC9C;
+    padding-top: 85px;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.left-presentation p,
+.right-design p{
+    padding-top: 45px;
+    color: #444;
+    font-size: 14px;
+    line-height: 30px;
+    word-spacing: 6px;
+    margin-bottom: 60px;
+    
+}
+
+.right-presentation{
+    width: 60%;
+    background: url(../images/hand-phone.png);
+    background-size: 90%;
+    background-position: left 100px;
+    background-repeat: no-repeat;
+}
+
+.right-design{
+    width: 40%;
+}
+
+/* ********** COMMUNITY section *********** */
+
+.community-section{
+    padding: 80px 70px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 244, 248)
+}
+
+.left-community,
+.middle-community,
+.right-community{
+    padding: 20px;
+}
+
+.left-community{
+    margin: 30px 0px;
+    text-align: center;
+    color: #444;
+}
+
+.left-community h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ********** SUBSCRIBE section *********** */
+
+.subscribe-section{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/otto-norin-324495-unsplash.jpg);
+    background-size: cover;
+    height: 750px;
+    line-height: 750px;
+    text-align: center;
+}
+
+.subscribe-input-block{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+
+.subscribe-section h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 26px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.input-text{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+.input-btn{
+    background-color: #1ABC9C;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-top: 3px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    transition: 0.7 ms;
+}
+
+.input-btn:hover{
+    background-color: rgb(20, 117, 98);
+}
+
+/* ********** DOWNLOAD section *********** */
+
+.download-section{
+    background-color: rgb(240, 244, 248);
+    height: 430px;
+    text-align: center;
+}
+
+.download-section h2{
+    text-transform: uppercase;
+    color: #444;
+    padding-top: 70px;
+}
+
+.download-section p{
+    color: #444;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 30px 160px;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.applestore-btn,
+.androidstore-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.applestore-btn{
+    margin-right: 20px;
+}
+
+.androidstore-btn{
+    margin-left: 20px;
+}
+
+.apple-btn,
+.apple-logo,
+.android-btn,
+.android-logo{
+    background-color: #1ABC9C;
+    height: 40px;
+    width: 220px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.apple-btn:hover,
+.apple-logo:hover,
+.android-btn:hover,
+.android-logo:hover{
+    background-color: #16A085;
+}
+
+.apple-btn,
+.android-btn{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.apple-logo,
+.android-logo{
+    background-color: #16A085;
+    width: 40px;
+    padding-top: 4px;
+    line-height: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* ********** FOOTER section *********** */
+
+.footer{
+    position: relative;
+    height: 120px;
+    width: 50%;
+}
+
+
+.footer-nav-menu{
+    padding-top: 30px;
+    padding-left: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-nav-menu li{
+    padding-left: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.footer-nav-menu li a{
+    text-decoration: none;
+    color: #444;
+}
+
+.separation-nav{
+    font-size: 16px;
+    color: #1ABC9C;
+}
+
+.copyright{
+    color: #444;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.footer img{
+    position: absolute;
+    left: 90%;
+    bottom: 35px;
+}
+
